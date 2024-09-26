@@ -17,7 +17,7 @@ class Character:
 
     def __str__(self):
         return f"-- {self.name} --\nЗдоров'я: {self.health}\n" \
-               f"Шкода: {self.damage}\nЗахист: {self.defence}" \
+               f"Шкода: {self.damage}\nЗахист: {self.defence}\n" \
                f"Тип: {self.type}"
 
     def take_damage(self, damage):
